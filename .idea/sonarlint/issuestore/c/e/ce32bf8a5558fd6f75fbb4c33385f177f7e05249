@@ -1,0 +1,13 @@
+
+P
+java:S2387"."width" is the name of a field in "Component".(İéØüÿÿÿÿ8´£²ê‘/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İéØüÿÿÿÿ8Ç“ê‘/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÛŠ¨ø
+L
+java:S2387	"/"height" is the name of a field in "Component".(÷šâË8´£²ê‘/
+v	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ™€8…³˜ê‘/
+v	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷šâË8ƒƒ”ê‘/
+f
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8­»âê‘/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ®éÒüÿÿÿÿ8ÎÆÍê‘/
