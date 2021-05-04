@@ -1,29 +1,33 @@
 package com.tutorial.mario.tile;
 
+import com.tutorial.mario.Handler;
+import com.tutorial.mario.Id;
+
 import java.awt.*;
 
-public class tile {
-    public class tile {
+
+    public abstract class Tile {
         public int x, y;
         public int width, height;
         public boolean solid;
         public int velX, velY;
+        public Id id;
+        public Handler handler;
 
-        public tile(int x, int y, int width, int height, boolean solid){
+        public Tile(int x, int y, int width, int height, boolean solid, Id id, Handler handler){
             this.x = x;
             this.y = y;
             this.width = width;
             this.height = height;
             this.solid = solid;
+            this.id = id;
+            this.handler = handler;
         }
 
-        public void render(Graphics g){
-
-        }
-        public void tick(){
-            x+= velX;
-            y+= velY;
-
+        public abstract void render(Graphics g);
+        public abstract void tick();
+        public void die(){
+            handler.removeTile(this);
         }
 
         public int getX() {
@@ -46,10 +50,6 @@ public class tile {
             return solid;
         }
 
-        public void setSolid(boolean solid) {
-            this.solid = solid;
-        }
-
         public void setVelX(int velX) {
             this.velX = velX;
         }
@@ -57,6 +57,9 @@ public class tile {
         public void setVelY(int velY) {
             this.velY = velY;
         }
-    }
+        public Id setID(){
+            return id;
+        }
+
 
 }

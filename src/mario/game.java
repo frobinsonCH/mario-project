@@ -1,19 +1,35 @@
 package mario;
 
+
+import com.tutorial.mario.Handler;
+import com.tutorial.mario.Id;
+import com.tutorial.mario.entity.Player;
+import com.tutorial.mario.input.KeyInput;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.io.BufferedInputStream;
 
 
+
 public class game extends Canvas implements Runnable {
     public static final int width = 270;
-    public static final int height = (width / 14) * 10;
+    public static final int height = width / 14 * 10;
     public static final int scale = 4;
     public static final String title = "Mario";
 
     private Thread thread;
     private boolean running = false;
+    public static Handler handler;
+
+    private void init(){
+        handler = new Handler();
+        addKeyListener(new KeyInput());
+        handler.addEntity(new Player(50,80,64,64,true, Id.player,handler));
+
+    }
+
     private synchronized void start(){
       if(running)return;
       running = true;
@@ -32,6 +48,8 @@ public class game extends Canvas implements Runnable {
 
     }
     public void run(){
+        init();
+        requestFocus();
         long lastTime = System.nanoTime();
         long timer = System.currentTimeMillis();
         double delta = 0.0;
@@ -68,19 +86,23 @@ public class game extends Canvas implements Runnable {
         Graphics g = bs.getDrawGraphics();
         g.setColor(Color.MAGENTA);
         g.fillRect(0,0,getWidth(),getHeight());
+        handler.render(g);
         g.dispose();
         bs.show();
 
     }
-    public void tick(){
 
-    }
     public game(){
 
         Dimension size = new Dimension(width*scale, height*scale);
         setPreferredSize(size);
         setMaximumSize(size);
         setMinimumSize(size);
+    }
+
+    public void tick(){
+        handler.tick();
+
     }
 
     public static void main(String[] args) {

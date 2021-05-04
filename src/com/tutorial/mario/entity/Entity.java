@@ -1,28 +1,35 @@
 package com.tutorial.mario.entity;
 
-import java.awt.*;
+import com.tutorial.mario.Id;
 
-public class entity {
+import java.awt.*;
+import com.tutorial.mario.Handler;
+
+public abstract class Entity {
     public int x, y;
     public int width, height;
     public boolean solid;
     public int velX, velY;
+    public Id id;
+    public Handler handler;
 
-    public entity(int x, int y, int width, int height, boolean solid){
+    public Entity(int x, int y, int width, int height, boolean solid, Id id, Handler handler){
         this.x = x;
         this.y = y;
         this.width = width;
         this.height = height;
         this.solid = solid;
+        this.id = id;
+        this.handler = handler;
     }
 
-    public void render(Graphics g){
+    public abstract void render(Graphics g);
+    public abstract void tick();
 
-    }
-    public void tick(){
-        x+= velX;
-        y+= velY;
 
+
+    public void die(){
+        handler.removeEntity(this);
     }
 
     public int getX() {
@@ -45,15 +52,14 @@ public class entity {
         return solid;
     }
 
-    public void setSolid(boolean solid) {
-        this.solid = solid;
-    }
-
     public void setVelX(int velX) {
         this.velX = velX;
     }
 
     public void setVelY(int velY) {
         this.velY = velY;
+    }
+    public Id getId(){
+        return id;
     }
 }
