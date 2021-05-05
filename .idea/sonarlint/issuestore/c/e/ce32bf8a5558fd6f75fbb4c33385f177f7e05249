@@ -1,13 +1,25 @@
 
+c
+java:S2142-"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÚØª¶“/
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(õÊëì8Èè“À“/
+u
+java:S1104"SMake handler a static final constant or non-public and provide accessors if needed.(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë˜òúùÿÿÿÿ8ƒƒ”ê‘/
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ™€8…³˜ê‘/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ®éÒüÿÿÿÿ8ÎÆÍê‘/
 P
-java:S2387"."width" is the name of a field in "Component".(İéØüÿÿÿÿ8´£²ê‘/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İéØüÿÿÿÿ8Ç“ê‘/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÛŠ¨ø
-L
-java:S2387	"/"height" is the name of a field in "Component".(÷šâË8´£²ê‘/
-v	java:S115
-"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ™€8…³˜ê‘/
-v	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷šâË8ƒƒ”ê‘/
+java:S2387"."width" is the name of a field in "Component".(İéØüÿÿÿÿ8´£²ê‘/
+D
+java:S1948"(Make "thread" transient or serializable.(â£Ÿ48ê°ğµ“/
+O
+java:S1444"-Make this "public static handler" field final(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Åõ÷ûÿÿÿÿ
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İéØüÿÿÿÿ8Ç“ê‘/
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(‰¹ç¹8è‹è¶“/
 f
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8­»âê‘/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ®éÒüÿÿÿÿ8ÎÆÍê‘/
+java:S3252s"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8­»âê‘/
+Z
+java:S1128"8Remove this unused import 'java.io.BufferedInputStream'.(Š—€åûÿÿÿÿ8û…·“/
+Q
+java:S2387"/"height" is the name of a field in "Component".(Ë˜òúùÿÿÿÿ8´£²ê‘/

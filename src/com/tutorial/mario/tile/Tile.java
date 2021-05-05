@@ -57,9 +57,15 @@ import java.awt.*;
         public void setVelY(int velY) {
             this.velY = velY;
         }
-        public Id setID(){
+        public Id setId(){
             return id;
+        }
+        public Id getId(){return id;}
+        public Rectangle getBounds(){
+            return new Rectangle(getX(),getY(),width,height);
         }
 
 
-}
+
+
+    }
