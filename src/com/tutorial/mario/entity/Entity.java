@@ -12,6 +12,9 @@ public abstract class Entity {
     public int velX, velY;
     public Id id;
     public Handler handler;
+    public boolean jumping = false;
+    public boolean falling = true;
+    public double gravity = 0.0;
 
     public Entity(int x, int y, int width, int height, boolean solid, Id id, Handler handler){
         this.x = x;

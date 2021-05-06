@@ -27,11 +27,20 @@ public class Player extends Entity{
             if(t.getId()==Id.wall){
                 if(getBoundsTop().intersects(t.getBounds())){
                     setVelY(0);
-                    y = t.getY()+t.height;
+                    if(jumping){
+                        jumping = false;
+                        gravity = 0.0;
+                        falling = true;
+                    }
+
                 }
                 if(getBoundsBottom().intersects(t.getBounds())){
                     setVelY(0);
-                    y = t.getY()-t.height;
+                    if(falling) falling = false;
+                }else{ if(!falling&&!jumping){
+                    gravity = 0.0;
+                    falling = true;
+                }
                 }
                 if(getBoundsLeft().intersects(t.getBounds())){
                     setVelX(0);
@@ -42,6 +51,18 @@ public class Player extends Entity{
                     x = t.getX()-t.height;
                 }
             }
+        }
+        if(jumping){
+            gravity -=0.1;
+            setVelY((int)-gravity);
+            if(gravity<=0.0){
+                jumping = false;
+                falling = true;
+            }
+        }
+        if(falling){
+            gravity +=0.1;
+            setVelY((int)gravity);
         }
 
 

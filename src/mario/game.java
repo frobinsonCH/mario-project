@@ -28,7 +28,7 @@ public class game extends Canvas implements Runnable {
         handler = new Handler();
         addKeyListener(new KeyInput());
         handler.addEntity(new Player(50,80,64,64,true, Id.player,handler));
-        handler.addTile(new Wall(200,200,64,64,true,Id.wall,handler));
+
 
     }
 
