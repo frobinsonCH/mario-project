@@ -3,6 +3,7 @@ package com.tutorial.mario.entity;
 import com.tutorial.mario.Handler;
 import com.tutorial.mario.Id;
 import com.tutorial.mario.tile.Tile;
+import mario.game;
 
 import java.awt.*;
 
@@ -69,8 +70,7 @@ public class Player extends Entity{
     }
 
     public void render(Graphics g) {
-        g.setColor(Color.black);
-        g.fillRect(x,y,width,height);
+        g.drawImage(game.player.getBufferedImage(),x,y,width,height,null);
 
     }
 

@@ -4,6 +4,8 @@ package mario;
 import com.tutorial.mario.Handler;
 import com.tutorial.mario.Id;
 import com.tutorial.mario.entity.Player;
+import com.tutorial.mario.gfx.Sprite;
+import com.tutorial.mario.gfx.SpriteSheet;
 import com.tutorial.mario.input.KeyInput;
 import com.tutorial.mario.tile.Wall;
 
@@ -23,10 +25,16 @@ public class game extends Canvas implements Runnable {
     private Thread thread;
     private boolean running = false;
     public static Handler handler;
+    public static SpriteSheet sheet;
+    public static Sprite grass;
+    public static Sprite player;
 
     private void init(){
         handler = new Handler();
+        sheet = new SpriteSheet("/SpriteSheet.png");
         addKeyListener(new KeyInput());
+        grass = new Sprite(sheet,2,1);
+        player = new Sprite(sheet,1,1);
         handler.addEntity(new Player(50,80,64,64,true, Id.player,handler));
 
 
