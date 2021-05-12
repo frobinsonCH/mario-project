@@ -1,30 +1,30 @@
 
-r
-java:S1104"PMake velY a static final constant or non-public and provide accessors if needed.(¿ÿúÿÿÿÿ8¢æ€¸“/
-p
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Şâ‰›úÿÿÿÿ8ğº“/
+D
+java:S1659""Declare "velY" on a separate line.(¿ÿúÿÿÿÿ8¢æ€¸“/
+V
+java:S5993"9Change the visibility of this constructor to "protected".(Ã°8¥Á‹½“/
 n
 java:S1104"QMake width a static final constant or non-public and provide accessors if needed.(ış„8¢æ€¸“/
-n
-java:S1104"QMake solid a static final constant or non-public and provide accessors if needed.(½ˆâÎ8¢æ€¸“/
+o
+java:S1104
+"MMake y a static final constant or non-public and provide accessors if needed.(‰«¥’üÿÿÿÿ8¢æ€¸“/
 r
 java:S1104"PMake velX a static final constant or non-public and provide accessors if needed.(¿ÿúÿÿÿÿ8¢æ€¸“/
 p
 java:S1104"SMake handler a static final constant or non-public and provide accessors if needed.(Öı£8¯¼¿»“/
-o
-java:S1104
-"MMake x a static final constant or non-public and provide accessors if needed.(‰«¥’üÿÿÿÿ8¢æ€¸“/
-V
-java:S5993"9Change the visibility of this constructor to "protected".(Ã°8¥Á‹½“/
+n
+java:S1104"QMake solid a static final constant or non-public and provide accessors if needed.(½ˆâÎ8¢æ€¸“/
 o
 java:S1104"RMake height a static final constant or non-public and provide accessors if needed.(ış„8¢æ€¸“/
-D
-java:S1659""Declare "velY" on a separate line.(¿ÿúÿÿÿÿ8¢æ€¸“/
-A
-java:S1659"$Declare "height" on a separate line.(ış„8¢æ€¸“/
-o
-java:S1104
-"MMake y a static final constant or non-public and provide accessors if needed.(‰«¥’üÿÿÿÿ8¢æ€¸“/
+p
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Şâ‰›úÿÿÿÿ8ğº“/
 A
 java:S1659
 "Declare "y" on a separate line.(‰«¥’üÿÿÿÿ8¢æ€¸“/
+r
+java:S1104"PMake velY a static final constant or non-public and provide accessors if needed.(¿ÿúÿÿÿÿ8¢æ€¸“/
+o
+java:S1104
+"MMake x a static final constant or non-public and provide accessors if needed.(‰«¥’üÿÿÿÿ8¢æ€¸“/
+A
+java:S1659"$Declare "height" on a separate line.(ış„8¢æ€¸“/

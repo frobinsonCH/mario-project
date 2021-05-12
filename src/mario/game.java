@@ -27,14 +27,16 @@ public class game extends Canvas implements Runnable {
     public static Handler handler;
     public static SpriteSheet sheet;
     public static Sprite grass;
-    public static Sprite player;
+    public static Sprite player[] = new Sprite [10];
 
     private void init(){
         handler = new Handler();
         sheet = new SpriteSheet("/SpriteSheet.png");
         addKeyListener(new KeyInput());
-        grass = new Sprite(sheet,2,1);
-        player = new Sprite(sheet,1,1);
+        grass = new Sprite(sheet,1,1);
+        for(int i=0;i<player.length;i++){
+            player[i] = new Sprite(sheet,i+1,1);
+        }
         handler.addEntity(new Player(50,80,64,64,true, Id.player,handler));
 
 
@@ -94,7 +96,7 @@ public class game extends Canvas implements Runnable {
             return;
         }
         Graphics g = bs.getDrawGraphics();
-        g.setColor(Color.MAGENTA);
+        g.setColor(Color.black);
         g.fillRect(0,0,getWidth(),getHeight());
         handler.render(g);
         g.dispose();
