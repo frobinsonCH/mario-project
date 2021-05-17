@@ -1,0 +1,13 @@
+
+
+java:S1319"rThe type of the "entity" object should be an interface such as "List" rather than the implementation "LinkedList".(¼Ã“ÿ8×“šº“/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼Ã“ÿ8×“šº“/
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ´üşÿÿÿÿ8ÁÌ¹º“/
+r
+java:S1104"PMake tile a static final constant or non-public and provide accessors if needed.(Ğ´üşÿÿÿÿ8òøºº“/
+o
+java:S1104"RMake entity a static final constant or non-public and provide accessors if needed.(¼Ã“ÿ8×“šº“/
+’
+java:S1319"pThe type of the "tile" object should be an interface such as "List" rather than the implementation "LinkedList".(Ğ´üşÿÿÿÿ8ÁÌ¹º“/
