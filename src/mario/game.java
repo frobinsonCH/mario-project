@@ -3,6 +3,7 @@ package mario;
 
 import com.tutorial.mario.Handler;
 import com.tutorial.mario.Id;
+import com.tutorial.mario.entity.Entity;
 import com.tutorial.mario.entity.Player;
 import com.tutorial.mario.gfx.Sprite;
 import com.tutorial.mario.gfx.SpriteSheet;
@@ -25,12 +26,14 @@ public class game extends Canvas implements Runnable {
     private Thread thread;
     private boolean running = false;
     public static Handler handler;
+    public static Camera cam;
     public static SpriteSheet sheet;
     public static Sprite grass;
     public static Sprite player[] = new Sprite [10];
 
     private void init(){
         handler = new Handler();
+        cam = new Camera();
         sheet = new SpriteSheet("/SpriteSheet.png");
         addKeyListener(new KeyInput());
         grass = new Sprite(sheet,1,1);
@@ -98,6 +101,7 @@ public class game extends Canvas implements Runnable {
         Graphics g = bs.getDrawGraphics();
         g.setColor(Color.black);
         g.fillRect(0,0,getWidth(),getHeight());
+        g.translate(cam.getX(), cam.getY());
         handler.render(g);
         g.dispose();
         bs.show();
@@ -114,7 +118,18 @@ public class game extends Canvas implements Runnable {
 
     public void tick(){
         handler.tick();
+        for (Entity e:handler.entity){
+            if(e.getId()==Id.player){
+                cam.tick(e);
+            }
+        }
 
+    }
+    public static int getFrameWidth(){
+        return WIDTH*scale;
+    }
+    public static int getFrameHeight(){
+        return HEIGHT*scale;
     }
 
     public static void main(String[] args) {

@@ -1,46 +1,50 @@
 
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ®éÒüÿÿÿÿ8ÎÆÍê‘/
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ™€8…³˜ê‘/
+o
+java:S1104"RMake player a static final constant or non-public and provide accessors if needed.(×¢Öä8à„ãÙ•/
+O
+java:S1444"-Make this "public static handler" field final(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
 u
 java:S1104"SMake handler a static final constant or non-public and provide accessors if needed.(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
-c
-java:S21427"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÚØª¶“/
-S
-java:S2696%"6Make the enclosing method "static" or remove this set.(²Ï’Ö8È„èÙ•/
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ™€8…³˜ê‘/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ®éÒüÿÿÿÿ8ÎÆÍê‘/
 P
 java:S2387"."width" is the name of a field in "Component".(İéØüÿÿÿÿ8´£²ê‘/
-n
-java:S1104"QMake sheet a static final constant or non-public and provide accessors if needed.(È×Äß8üçÜÙ•/
-S
-java:S2696""6Make the enclosing method "static" or remove this set.(Ğ›öŠ8¹ìİÙ•/
-H
-java:S1444"+Make this "public static sheet" field final(È×Äß8üçÜÙ•/
-U	java:S106R"9Replace this use of System.out or System.err by a logger.(‰¹ç¹8è‹è¶“/
-D
-java:S1948"(Make "thread" transient or serializable.(â£Ÿ48ê°ğµ“/
-f
-java:S3252}"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8­»âê‘/
-M
-java:S1444"+Make this "public static grass" field final(à¬®©øÿÿÿÿ8à„ãÙ•/
-t
-java:S1104"RMake player a static final constant or non-public and provide accessors if needed.(ø…üşúÿÿÿÿ8à„ãÙ•/
-s
-java:S1104"QMake grass a static final constant or non-public and provide accessors if needed.(à¬®©øÿÿÿÿ8à„ãÙ•/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë˜òúùÿÿÿÿ8ƒƒ”ê‘/
-X
-java:S2696$"6Make the enclosing method "static" or remove this set.(’Şáùÿÿÿÿ8˜¬æÙ•/
-N
-java:S1444",Make this "public static player" field final(ø…üşúÿÿÿÿ8à„ãÙ•/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İéØüÿÿÿÿ8Ç“ê‘/
-S
-java:S2696!"6Make the enclosing method "static" or remove this set.(õÊëì8üçÜÙ•/
+I
+java:S1444",Make this "public static player" field final(×¢Öä8à„ãÙ•/
 [
 java:S1128
 "9Remove this unused import 'com.tutorial.mario.tile.Wall'.(ÙĞ¢£øÿÿÿÿ8– Æ‰”/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Åõ÷ûÿÿÿÿ
+s
+java:S1104"QMake grass a static final constant or non-public and provide accessors if needed.(à¬®©øÿÿÿÿ8à„ãÙ•/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İéØüÿÿÿÿ8Ç“ê‘/
+M
+java:S1444"+Make this "public static grass" field final(à¬®©øÿÿÿÿ8à„ãÙ•/
+n
+java:S1104"QMake sheet a static final constant or non-public and provide accessors if needed.(È×Äß8üçÜÙ•/
 Z
 java:S1128"8Remove this unused import 'java.io.BufferedInputStream'.(Š—€åûÿÿÿÿ8û…·“/
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Åõ÷ûÿÿÿÿ
-O
-java:S1444"-Make this "public static handler" field final(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
+S
+java:S2696!"6Make the enclosing method "static" or remove this set.(õÊëì8üçÜÙ•/
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(‰¹ç¹8è‹è¶“/
 Q
 java:S2387"/"height" is the name of a field in "Component".(Ë˜òúùÿÿÿÿ8´£²ê‘/
+S
+java:S2696&"6Make the enclosing method "static" or remove this set.(†—µş8Ü§„–/
+H
+java:S1444"+Make this "public static sheet" field final(È×Äß8üçÜÙ•/
+U
+java:S1197"8Move the array designator from the variable to the type.(×¢Öä8èò„–/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë˜òúùÿÿÿÿ8ƒƒ”ê‘/
+:
+java:S2386"Make this member "protected".(×¢Öä8ã´¨„–/
+D
+java:S1948"(Make "thread" transient or serializable.(â£Ÿ48ê°ğµ“/
+R
+java:S2696$"6Make the enclosing method "static" or remove this set.(úß»j8˜¬æÙ•/
+f
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8­»âê‘/
+S
+java:S2696""6Make the enclosing method "static" or remove this set.(Ğ›öŠ8¹ìİÙ•/
+c
+java:S21429"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÚØª¶“/
