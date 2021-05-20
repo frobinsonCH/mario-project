@@ -10,11 +10,13 @@ import com.tutorial.mario.gfx.SpriteSheet;
 import com.tutorial.mario.input.KeyInput;
 import com.tutorial.mario.tile.Wall;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
+import java.awt.image.BufferedImage;
 import java.io.BufferedInputStream;
-
+import java.io.IOException;
 
 
 public class game extends Canvas implements Runnable {
@@ -25,6 +27,7 @@ public class game extends Canvas implements Runnable {
 
     private Thread thread;
     private boolean running = false;
+    private BufferedImage image;
     public static Handler handler;
     public static Camera cam;
     public static SpriteSheet sheet;
@@ -40,7 +43,13 @@ public class game extends Canvas implements Runnable {
         for(int i=0;i<player.length;i++){
             player[i] = new Sprite(sheet,i+1,1);
         }
-        handler.addEntity(new Player(50,80,64,64,true, Id.player,handler));
+
+        try {
+            image = ImageIO.read(getClass().getResource("/LevelDesign.png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        handler.createLevel(image);
 
 
     }
@@ -99,7 +108,7 @@ public class game extends Canvas implements Runnable {
             return;
         }
         Graphics g = bs.getDrawGraphics();
-        g.setColor(Color.black);
+        g.setColor(Color.white);
         g.fillRect(0,0,getWidth(),getHeight());
         g.translate(cam.getX(), cam.getY());
         handler.render(g);
@@ -126,10 +135,10 @@ public class game extends Canvas implements Runnable {
 
     }
     public static int getFrameWidth(){
-        return WIDTH*scale;
+        return width*scale;
     }
     public static int getFrameHeight(){
-        return HEIGHT*scale;
+        return height*scale;
     }
 
     public static void main(String[] args) {

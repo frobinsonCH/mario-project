@@ -19,3 +19,5 @@ V
 +src/com/tutorial/mario/gfx/SpriteSheet.java,a/4/a4719a70f3e848b327208de749f9d1c22f5b607c
 U
 %src/com/tutorial/mario/tile/Wall.java,4/8/4860fb7194ad03afe173eaa362272c85ec18a66c
+E
+src/mario/Camera.java,7/3/731be8bb8a8ef4d222add0105e5f0be1a1635588
