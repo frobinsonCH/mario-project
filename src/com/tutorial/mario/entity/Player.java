@@ -58,6 +58,18 @@ public class Player extends Entity{
                 }
             }
         }
+
+        for(int i = 0 ; i<handler.entity.size();i++){
+            Entity e = handler.entity.get(i);
+            if(e.getId()==Id.mushroom){
+                if(getBounds().intersects(e.getBounds())){
+                    width *= 2;
+                    height *=2;
+                    e.die();
+
+                }
+            }
+        }
         if (jumping) {
             gravity -= 0.1;
             setVelY((int) -gravity);

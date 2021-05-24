@@ -33,6 +33,7 @@ public class game extends Canvas implements Runnable {
     public static SpriteSheet sheet;
     public static Sprite grass;
     public static Sprite player[] = new Sprite [10];
+    public static Sprite mushroom;
 
     private void init(){
         handler = new Handler();
@@ -40,6 +41,7 @@ public class game extends Canvas implements Runnable {
         sheet = new SpriteSheet("/SpriteSheet.png");
         addKeyListener(new KeyInput());
         grass = new Sprite(sheet,1,1);
+        mushroom= new Sprite(sheet,6,1);
         for(int i=0;i<player.length;i++){
             player[i] = new Sprite(sheet,i+1,1);
         }
