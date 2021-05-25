@@ -1,36 +1,42 @@
 
-n
-java:S1104"QMake solid a static final constant or non-public and provide accessors if needed.(½ˆâÎ8ñÓĞ·“/
-o
-java:S1104	"MMake y a static final constant or non-public and provide accessors if needed.(‰«¥’üÿÿÿÿ8í¾Î·“/
-n
-java:S1104
-"QMake width a static final constant or non-public and provide accessors if needed.(ış„8ÕŞÏ·“/
 r
 java:S1104"PMake velX a static final constant or non-public and provide accessors if needed.(¿ÿúÿÿÿÿ8§ìõ·“/
-D
-java:S1659""Declare "velY" on a separate line.(¿ÿúÿÿÿÿ8ìâö·“/
-[
-java:S5993"9Change the visibility of this constructor to "protected".(ï¼´üøÿÿÿÿ8Ò¹Â½“/
-p
-java:S1104"SMake jumping a static final constant or non-public and provide accessors if needed.(™¹óÛ8Í¿º‰”/
+n
+java:S1104"QMake solid a static final constant or non-public and provide accessors if needed.(½ˆâÎ8ñÓĞ·“/
 r
 java:S1104"PMake velY a static final constant or non-public and provide accessors if needed.(¿ÿúÿÿÿÿ8ìâö·“/
-A
-java:S1659
-"$Declare "height" on a separate line.(ış„8ÕŞÏ·“/
+u
+java:S1104"SMake gravity a static final constant or non-public and provide accessors if needed.(ìÁ¤şüÿÿÿÿ8ä¤¼‰”/
+x
+java:S1104"VMake frameDelay a static final constant or non-public and provide accessors if needed.(Õ©¶ûÿÿÿÿ8¯Â€šš/
 p
 java:S1104"SMake handler a static final constant or non-public and provide accessors if needed.(Öı£8†„ñº“/
 A
-java:S1659	"Declare "y" on a separate line.(‰«¥’üÿÿÿÿ8í¾Î·“/
+java:S1659
+"$Declare "height" on a separate line.(ış„8ÕŞÏ·“/
 o
 java:S1104	"MMake x a static final constant or non-public and provide accessors if needed.(‰«¥’üÿÿÿÿ8í¾Î·“/
 o
-java:S1104
-"RMake height a static final constant or non-public and provide accessors if needed.(ış„8ÕŞÏ·“/
+java:S1104	"MMake y a static final constant or non-public and provide accessors if needed.(‰«¥’üÿÿÿÿ8í¾Î·“/
 p
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Şâ‰›úÿÿÿÿ8¨Ç‡º“/
+java:S1104"SMake jumping a static final constant or non-public and provide accessors if needed.(™¹óÛ8Í¿º‰”/
+D
+java:S1659""Declare "velY" on a separate line.(¿ÿúÿÿÿÿ8ìâö·“/
+[
+java:S5993"9Change the visibility of this constructor to "protected".(ï¼´üøÿÿÿÿ8Ò¹Â½“/
+n
+java:S1104
+"QMake width a static final constant or non-public and provide accessors if needed.(ış„8ÕŞÏ·“/
 u
 java:S1104"SMake falling a static final constant or non-public and provide accessors if needed.(œÍ“İúÿÿÿÿ8Ò¬»‰”/
+o
+java:S1104
+"RMake height a static final constant or non-public and provide accessors if needed.(ış„8ÕŞÏ·“/
+n
+java:S1104"QMake frame a static final constant or non-public and provide accessors if needed.(«¶ô§8¨™€šš/
+p
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Şâ‰›úÿÿÿÿ8¨Ç‡º“/
+A
+java:S1659	"Declare "y" on a separate line.(‰«¥’üÿÿÿÿ8í¾Î·“/
 u
-java:S1104"SMake gravity a static final constant or non-public and provide accessors if needed.(ìÁ¤şüÿÿÿÿ8ä¤¼‰”/
+java:S1104"SMake animate a static final constant or non-public and provide accessors if needed.(Å¨¯Üøÿÿÿÿ8òäšš/

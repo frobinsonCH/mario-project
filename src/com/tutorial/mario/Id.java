@@ -1,6 +1,6 @@
 package com.tutorial.mario;
 
 public enum Id {
-    player,wall, mushroom;
+    player,wall, mushroom, goomba;
 
 }

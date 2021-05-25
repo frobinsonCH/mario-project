@@ -1,59 +1,69 @@
 
-Q
-java:S2387"/"height" is the name of a field in "Component".(Ë˜òúùÿÿÿÿ8´£²ê‘/
-R
-java:S2696*"6Make the enclosing method "static" or remove this set.(úß»j8˜¬æÙ•/
-S
-java:S2696'"6Make the enclosing method "static" or remove this set.(™Ôº÷8ÅÒ˜Ì˜/
-_
-java:S1128"=Remove this unused import 'com.tutorial.mario.entity.Player'.(ÃêÓÎıÿÿÿÿ8œ©íË˜/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ®éÒüÿÿÿÿ8ÎÆÍê‘/
-O
-java:S1444"-Make this "public static handler" field final(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
-D
-java:S1948"(Make "thread" transient or serializable.(â£Ÿ48ê°ğµ“/
-S
-java:S2696,"6Make the enclosing method "static" or remove this set.(†—µş8Ü§„–/
-U
-java:S1197#"8Move the array designator from the variable to the type.(×¢Öä8èò„–/
-S
-java:S2696&"6Make the enclosing method "static" or remove this set.(õÊëì8üçÜÙ•/
-n
-java:S1104!"QMake sheet a static final constant or non-public and provide accessors if needed.(È×Äß8üçÜÙ•/
-s
-java:S1104""QMake grass a static final constant or non-public and provide accessors if needed.(à¬®©øÿÿÿÿ8à„ãÙ•/
-l
-java:S1104 "OMake cam a static final constant or non-public and provide accessors if needed.(ô¸ ­8Û¹²ú—/
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Åõ÷ûÿÿÿÿ
-Z
-java:S1128"8Remove this unused import 'java.io.BufferedInputStream'.(Š—€åûÿÿÿÿ8û…·“/
-[
-java:S1128"9Remove this unused import 'com.tutorial.mario.tile.Wall'.(ÙĞ¢£øÿÿÿÿ8– Æ‰”/
-F
-java:S1444 ")Make this "public static cam" field final(ô¸ ­8Û¹²ú—/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë˜òúùÿÿÿÿ8ƒƒ”ê‘/
-P
-java:S2387"."width" is the name of a field in "Component".(İéØüÿÿÿÿ8´£²ê‘/
-:
-java:S2386#"Make this member "protected".(×¢Öä8ã´¨„–/
-S
-java:S2696("6Make the enclosing method "static" or remove this set.(Ğ›öŠ8¹ìİÙ•/
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ™€8…³˜ê‘/
-u
-java:S1104"SMake handler a static final constant or non-public and provide accessors if needed.(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
-g
-java:S3252—"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8­»âê‘/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İéØüÿÿÿÿ8Ç“ê‘/
-M
-java:S1444""+Make this "public static grass" field final(à¬®©øÿÿÿÿ8à„ãÙ•/
-H
-java:S1444!"+Make this "public static sheet" field final(È×Äß8üçÜÙ•/
-U	java:S106`"9Replace this use of System.out or System.err by a logger.(‰¹ç¹8è‹è¶“/
-I
-java:S1444#",Make this "public static player" field final(×¢Öä8à„ãÙ•/
 o
-java:S1104#"RMake player a static final constant or non-public and provide accessors if needed.(×¢Öä8à„ãÙ•/
+java:S1104#"RMake goomba a static final constant or non-public and provide accessors if needed.(äÅå8¦æÈ˜š/
+:
+java:S2386#"Make this member "protected".(äÅå8¹§Æ˜š/
+R
+java:S2696*"6Make the enclosing method "static" or remove this set.(úß»j8ÌÅ¢ñ™/
+:
+java:S2386!"Make this member "protected".(×¢Öä8ã´¨„–/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë˜òúùÿÿÿÿ8ƒƒ”ê‘/
+o
+java:S1104!"RMake player a static final constant or non-public and provide accessors if needed.(×¢Öä8à„ãÙ•/
+S
+java:S2696'"6Make the enclosing method "static" or remove this set.(™Ôº÷8ÌÅ¢ñ™/
+I
+java:S1444#",Make this "public static goomba" field final(äÅå8¦æÈ˜š/
+H
+java:S1444"+Make this "public static sheet" field final(È×Äß8üçÜÙ•/
+U	java:S106d"9Replace this use of System.out or System.err by a logger.(‰¹ç¹8è‹è¶“/
+S
+java:S2696("6Make the enclosing method "static" or remove this set.(Ğ›öŠ8ÌÅ¢ñ™/
+n
+java:S1104"QMake sheet a static final constant or non-public and provide accessors if needed.(È×Äß8üçÜÙ•/
+Q
+java:S2387"/"height" is the name of a field in "Component".(Ë˜òúùÿÿÿÿ8´£²ê‘/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İéØüÿÿÿÿ8Ç“ê‘/
 c
-java:S2142E"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÚØª¶“/
+java:S2142I"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÚØª¶“/
 D
-java:S1948"'Make "image" transient or serializable.(ğã’8 ·¹Ì˜/
+java:S1948"'Make "image" transient or serializable.(ğã’8 ·¹Ì˜/
+S
+java:S26960"6Make the enclosing method "static" or remove this set.(ØÈ³ó8¬Ñšš/
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ™€8…³˜ê‘/
+u
+java:S1104"SMake handler a static final constant or non-public and provide accessors if needed.(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
+U
+java:S1197!"8Move the array designator from the variable to the type.(×¢Öä8èò„–/
+l
+java:S1104"OMake cam a static final constant or non-public and provide accessors if needed.(ô¸ ­8Û¹²ú—/
+P
+java:S2387"."width" is the name of a field in "Component".(İéØüÿÿÿÿ8´£²ê‘/
+M
+java:S1444 "+Make this "public static grass" field final(à¬®©øÿÿÿÿ8à„ãÙ•/
+s
+java:S1104 "QMake grass a static final constant or non-public and provide accessors if needed.(à¬®©øÿÿÿÿ8à„ãÙ•/
+q
+java:S1104""TMake mushroom a static final constant or non-public and provide accessors if needed.(¨ßš›8ÌÅ¢ñ™/
+S
+java:S2696-"6Make the enclosing method "static" or remove this set.(†—µş8ÌÅ¢ñ™/
+K
+java:S1444"".Make this "public static mushroom" field final(¨ßš›8ÌÅ¢ñ™/
+I
+java:S1444!",Make this "public static player" field final(×¢Öä8à„ãÙ•/
+S
+java:S2696&"6Make the enclosing method "static" or remove this set.(õÊëì8ÌÅ¢ñ™/
+S
+java:S2696+"6Make the enclosing method "static" or remove this set.(¡›œ8ò”§ñ™/
+F
+java:S1444")Make this "public static cam" field final(ô¸ ­8Û¹²ú—/
+U
+java:S1197#"8Move the array designator from the variable to the type.(äÅå8¹§Æ˜š/
+O
+java:S1444"-Make this "public static handler" field final(‘ñÑÈÿÿÿÿÿ8¡Œ¨½“/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Åõ÷ûÿÿÿÿ
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ®éÒüÿÿÿÿ8ÎÆÍê‘/
+D
+java:S1948"(Make "thread" transient or serializable.(â£Ÿ48ê°ğµ“/
+g
+java:S3252›"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8­»âê‘/

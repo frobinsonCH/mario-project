@@ -1,4 +1,4 @@
-package com.tutorial.mario.entity.powerup;
+package com.tutorial.mario.entity.mob;
 
 import com.tutorial.mario.Handler;
 import com.tutorial.mario.Id;
@@ -9,10 +9,11 @@ import mario.game;
 import java.awt.*;
 import java.util.Random;
 
-public class Mushroom extends Entity {
+public class Goomba extends Entity {
     private Random random = new Random();
 
-    public Mushroom(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
+
+    public Goomba(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
         super(x, y, width, height, solid, id, handler);
         int dir = random.nextInt(2);
         switch(dir){
@@ -25,15 +26,16 @@ public class Mushroom extends Entity {
         }
     }
 
+
     public void render(Graphics g) {
-        g.drawImage(game.mushroom.getBufferedImage(),x,y,width,height,null);
+        g.drawImage(game.goomba[frame + 1].getBufferedImage(), x, y, width, height, null);
 
     }
 
 
     public void tick() {
-        x+=velX;
-        y+=velY;
+        x += velX;
+        y += velY;
 
         for (Tile t : handler.tile) {
             if (!t.solid) break;
@@ -50,6 +52,7 @@ public class Mushroom extends Entity {
                 if (getBoundsLeft().intersects(t.getBounds())) {
                     setVelX(2);
 
+
                 }
                 if (getBoundsRight().intersects(t.getBounds())) {
                     setVelX(-2);
@@ -64,7 +67,4 @@ public class Mushroom extends Entity {
 
 
     }
-
-
-    }
-
+}

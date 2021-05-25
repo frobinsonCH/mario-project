@@ -15,6 +15,9 @@ public abstract class Entity {
     public boolean jumping = false;
     public boolean falling = true;
     public double gravity = 0.0;
+    public int frame = 0;
+    public  int frameDelay = 0;
+    public  boolean animate = false;
 
     public Entity(int x, int y, int width, int height, boolean solid, Id id, Handler handler){
         this.x = x;

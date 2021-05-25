@@ -1,17 +1,17 @@
-package com.tutorial.mario.entity;
+package com.tutorial.mario.entity.mob;
 
 import com.tutorial.mario.Handler;
 import com.tutorial.mario.Id;
+import com.tutorial.mario.entity.Entity;
 import com.tutorial.mario.tile.Tile;
 import mario.game;
 
 import java.awt.*;
 
-public class Player extends Entity{
+public class Player extends Entity {
 
-    private int frame = 0;
-    private int frameDelay = 0;
-    private boolean animate = false;
+
+
 
 
     public Player(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
@@ -63,10 +63,21 @@ public class Player extends Entity{
             Entity e = handler.entity.get(i);
             if(e.getId()==Id.mushroom){
                 if(getBounds().intersects(e.getBounds())){
-                    width *= 2;
-                    height *=2;
+                    int tpX = getX();
+                    int tpY = getY();
+                    width *= 1.5;
+                    height *=1.5;
+                    setX(tpX-width);
+                    setY(tpY - height);
                     e.die();
 
+                }
+            } else if (e.getId()==Id.goomba){
+                if(getBoundsBottom().intersects(e.getBoundsTop())){
+                    e.die();
+                }
+                else if(getBounds().intersects(e.getBounds())){
+                    die();
                 }
             }
         }

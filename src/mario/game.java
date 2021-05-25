@@ -4,18 +4,15 @@ package mario;
 import com.tutorial.mario.Handler;
 import com.tutorial.mario.Id;
 import com.tutorial.mario.entity.Entity;
-import com.tutorial.mario.entity.Player;
 import com.tutorial.mario.gfx.Sprite;
 import com.tutorial.mario.gfx.SpriteSheet;
 import com.tutorial.mario.input.KeyInput;
-import com.tutorial.mario.tile.Wall;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
-import java.io.BufferedInputStream;
 import java.io.IOException;
 
 
@@ -24,6 +21,7 @@ public class game extends Canvas implements Runnable {
     public static final int height = width / 14 * 10;
     public static final int scale = 4;
     public static final String title = "Mario";
+
 
     private Thread thread;
     private boolean running = false;
@@ -34,6 +32,7 @@ public class game extends Canvas implements Runnable {
     public static Sprite grass;
     public static Sprite player[] = new Sprite [10];
     public static Sprite mushroom;
+    public static Sprite goomba[] = new Sprite [10];
 
     private void init(){
         handler = new Handler();
@@ -44,6 +43,9 @@ public class game extends Canvas implements Runnable {
         mushroom= new Sprite(sheet,6,1);
         for(int i=0;i<player.length;i++){
             player[i] = new Sprite(sheet,i+1,1);
+        }
+        for(int i=0;i<goomba.length;i++){
+           goomba[i] = new Sprite(sheet,i+6,1);
         }
 
         try {

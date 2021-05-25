@@ -5,11 +5,11 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.LinkedList;
 import com.tutorial.mario.entity.Entity;
-import com.tutorial.mario.entity.Player;
+import com.tutorial.mario.entity.mob.Goomba;
+import com.tutorial.mario.entity.mob.Player;
 import com.tutorial.mario.entity.powerup.Mushroom;
 import com.tutorial.mario.tile.Tile;
 import com.tutorial.mario.tile.Wall;
-import mario.game;
 
 
 public class Handler {
@@ -72,6 +72,7 @@ public class Handler {
                 if (red == 0 && green == 0 && blue == 255)
                     addEntity(new Player(x * 64, y * 64, 64, 64, false, Id.player, this));
                 if (red==255 && green == 0 && blue ==0) addEntity( new Mushroom(x*64,y*64,64,64,true,Id.mushroom,this));
+                if (red == 255&& green == 119 && blue == 0) addEntity(new Goomba(x*64,y*64,64,64,true,Id.goomba,this));
 
 
             }
